@@ -6,6 +6,12 @@ Portfolio Optimization README
 Introduction
 This README provides an overview of the R code for portfolio optimization using genetic algorithms (GA). The code is divided into two parts:
 
+Libraries Used
+The following R libraries are used in this project:
+
+GA: for implementing genetic algorithms
+quantmod: for fetching historical stock data from Yahoo Finance
+
 Part 1: Construction of a portfolio with manually selected assets and GA-generated weights.
 Part 2: Integration of asset selection using GA with portfolio optimization.
 Part 1: Construction of a Portfolio
@@ -22,9 +28,11 @@ Part 2: Integration of Asset Selection with Portfolio Optimization
 Overview
 This part integrates asset selection using GA with portfolio optimization to enhance portfolio performance.
 
-Steps
-Fetching Data and Asset Selection: Stock data for a wide range of assets is fetched, and a GA is employed to select assets based on historical performance and sector diversity.
-Portfolio Optimization with Selected Assets: We use the selected assets to optimize portfolio weights using a GA, similar to Part 1.
-Evaluation: We evaluate the performance of the optimized portfolio on both train and test sets.
-Conclusion
-Both parts demonstrate the effectiveness of GA in constructing optimized portfolios. Part 1 focuses on optimizing weights with manually selected assets, while Part 2 integrates GA-based asset selection with portfolio optimization. The code provides insights into constructing well-diversified portfolios with desirable risk-return profiles.
+
+Contributing
+Contributions to this project are welcome. You can contribute by improving existing code, adding new features, or fixing bugs. Please fork the repository, make your changes, and submit a pull request.
+
+License
+This project is licensed under the MIT License. You are free to modify and distribute the code for both commercial and non-commercial purposes.
+
+Feel free to customize this README according to your specific project details and preferences. If you have any further questions or need assistance, please let me know!
